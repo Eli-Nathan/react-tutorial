@@ -14,11 +14,12 @@ const Button = ({ onPress, children }) => {
 
 const styles = {
   buttonStyle: {
-    flex: 1,
-    alignSelf: 'stretch',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: '#5DDFCC',
     marginRight: 5,
-    marginLeft: 5,
+    marginLeft: 5
   },
 
   textStyle: {
@@ -26,8 +27,7 @@ const styles = {
     color: '#fff',
     fontSize: 16,
     fontWeight: '600',
-    paddingTop: 10,
-    paddingBottom: 10
+    padding: 10
   }
 };
 
